@@ -10,8 +10,11 @@ namespace VariablesExercise
             string heroName = "Hulk";
             int year = 1962;
             int howOldIsTheBook;
+            double weightBanner = 58.05;
+            decimal weightHulk = 521.63m;
+            
 
-            Intro = "The Hulk is a fictional superhero appearing in publications by the American publisher Marvel Comics. Created by writer Stan Lee and artist Jack Kirby, the character first appeared in the debut issue of The Incredible Hulk";
+            Intro = "The Hulk is a fictional superhero appearing in publications by the American publisher Marvel Comics. Created by writer Stan Lee and artist Jack Kirby, the character first appeared in the debut issue of The Incredible Hulk.";
             howOldIsTheBook = 60;
             bool IsAnniversaryYear = true;
 
@@ -22,11 +25,12 @@ namespace VariablesExercise
             
             Console.WriteLine(heroName);
             Console.WriteLine(Intro);
-            Console.WriteLine($"The book was written in {year}");
-            Console.WriteLine(added);
+            Console.WriteLine($"The book was written in {year}. ");
+            Console.Write(added);
+            Console.WriteLine($"During transformation Bruce Banner's weight increases from {weightBanner} to {weightHulk} kg.");
             if (IsAnniversaryYear)
             {
-                Console.WriteLine("Many people will be celebrating Hulk's 60th anniversary in 2022");
+                Console.WriteLine("Many people will be celebrating Hulk's 60th anniversary in 2022.");
             }
 
          }
